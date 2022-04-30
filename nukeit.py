@@ -15,4 +15,4 @@ for root, subFolders, files in os.walk(path):
             print(f"Skipped {os.path.join(root, fileName)}")
         else:
             os.remove(os.path.join(root, fileName))
-            print(f"Deleted {os.path.join(root, fileName)}")
+            print(f"-->Deleted {os.path.join(root, fileName)}")
