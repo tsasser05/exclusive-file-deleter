@@ -4,8 +4,8 @@ Recursively delete files except those with the specified file extensions.  It le
 
 INVENTORY:
 
-nukeit.py       Script to delete any file that doesn't have the listed file extension
-create.sh       Create the test environment
+1. nukeit.py       Script to delete any file that doesn't have the listed file extension
+2. create.sh       Create the test environment
 
 
 TODO:
