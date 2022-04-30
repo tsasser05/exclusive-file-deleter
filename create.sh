@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if [ ! -d ~/tmp/files ]; then
+  mkdir -p ~/tmp/files
+fi
+
 cd ~/tmp/files
 rm -Rf ~/tmp/files/*
 mkdir sub1 sub2
